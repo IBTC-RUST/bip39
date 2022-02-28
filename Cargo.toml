@@ -1,0 +1,16 @@
+[package]
+name = "bip39"
+version = "0.1.0"
+authors = ["biwow <biwow@qq.com>"]
+homepage = "https://github.com/IBTC-RUST/bip39"
+repository = "https://github.com/IBTC-RUST/bip39"
+documentation = "https://github.com/IBTC-RUST/bip39"
+description = "Library for BIP-39 Bitcoin mnemonic codes"
+keywords = [ "crypto", "bitcoin", "bip39", "mnemonic" ]
+readme = "README.md"
+
+[lib]
+name = "bip39"
+path = "src/lib.rs"
+
+[dependencies]
